@@ -1,0 +1,25 @@
+Hypothesis: team metrics in the prior 10-15 games are stronger
+  predictors of tournament success than season metrics.
+
+Data: either get a web crawler or download a database with info,
+  NCAA, NBA, whatever, and pull the data into the notebook.
+
+Perform - and explain steps of - data cleaning, feature engineering
+  (end of game score, score std, home vs away, opponent score vs. 
+  opponent average, etc), correlation values, and generate some 
+  visualizations to show my EDA approach.
+
+In this specific case, build 2 models: 1 using whole season statistics,
+  another using some number of prior games only. Split the data into
+  train, validation, and test portions (I'm assuming it won't be sparse).
+  Display confusion matrices along with model statistics (accuracy, 
+  recall, etc.). Compare the results to see if there is an appreciable
+  difference between results - bonus points for bringing in even more
+  data to test the models on?
+
+Next steps: include individual player statistics, injury flags, quarterly
+  statistics, and more.
+
+In order to meet their level of understanding, regular comments between
+  each chunk - what's the purpose behind what I'm about to do - and
+  discussion of the results afterwards.
