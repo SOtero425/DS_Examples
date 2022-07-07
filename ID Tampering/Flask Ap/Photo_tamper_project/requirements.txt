@@ -1,5 +1,0 @@
-Flask
-opencv-python-headless++4.2.0.32
-Pillow
-scikit-image
-gunicorn
